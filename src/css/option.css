@@ -1,0 +1,81 @@
+*{
+    font-family: Poppins;
+    font-style: normal;
+}
+
+body{
+    width: 400px;
+    height: 330px;
+    border-radius: 50px;
+    display: flex;
+    background-color: #d3e2f2;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1{
+    font-size: 32px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 20px;
+    color: #4a5989;
+}
+
+input{
+    width: 350px;
+    height: 20px;
+    border: 2px solid #6374ae;
+    border-radius:15px;
+    font-size:15px;
+    padding: 10px;
+    color:#4a5989;
+    resize: none;
+}
+
+.buttonRetour{
+    padding: 6px 159.04px;
+    text-decoration: none;
+    font-size: 16px;
+    margin-top: 10px;
+    border-radius: 15px;
+    border: 2px solid #6374ae;
+    background-color: #6374ae;
+    color: white;
+    transition: 200ms;
+}
+
+.buttonRetour:hover{
+    border: 2px solid #6374ae;
+    background-color: white;
+    color: #6374ae;
+}
+
+button{
+    width: 374px;
+    height: 40px;
+    font-size: 16px;
+    margin-top: 10px;
+    border-radius: 15px;
+    border: 2px solid #6374ae;
+    background-color: #6374ae;
+    color: white;
+    transition: 200ms;
+}
+
+button:hover{
+    border: 2px solid #6374ae;
+    background-color: white;
+    color: #6374ae;
+}
+
+a{
+    color:#4a5989;
+    font-size:15px;
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+h5{
+    color: #4a5989;
+    margin-top: 35px;
+}
