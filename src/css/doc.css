@@ -1,0 +1,96 @@
+body {
+    width: 400px;
+    height: 330px;
+    border-radius: 50px;
+    display: flex;
+    background-color: #d3e2f2;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    /* Ajouté */
+}
+
+
+h5 {
+    color: #4a5989;
+    margin-top: 10px;
+    position: absolute;
+    bottom: 10px;
+}
+
+.container {
+    width: 600px;
+    /* Ajustez la largeur selon vos besoins */
+    height: 500px;
+    /* Ajustez la hauteur selon vos besoins */
+    margin: 20px auto;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+h1 {
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 20px;
+    color: #4a5989;
+}
+
+#searchInput {
+    width: calc(100% - 20px);
+    /* Ajustez la largeur du champ de recherche en fonction de la taille de la popup */
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow-y: auto;
+    /* Ajouter une barre de défilement si nécessaire */
+}
+
+li {
+    margin-top: 20px;
+    width: 300px;
+    height: 50px;
+    font-size: 16px;
+    border-radius: 15px;
+    border: 2px solid #6374ae;
+    background-color: #6374ae;
+    color: white;
+    transition: 200ms;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px;
+}
+
+li:hover {
+    border: 2px solid #6374ae;
+    background-color: white;
+    color: #6374ae;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.menu a {
+    margin-top: 5px;
+    font-size: 15px;
+    text-decoration: none;
+    color: #4a5989;
+    display: flex;
+}
+
+li:hover a {
+    color: #6374ae;
+}

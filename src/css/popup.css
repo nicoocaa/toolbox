@@ -11,6 +11,7 @@ body{
     background-color: #d3e2f2;
     align-items: center;
     flex-direction: column;
+    position: relative;
 }
 
 h1{
@@ -53,5 +54,7 @@ h1{
 
 h5{
     color: #4a5989;
-    margin-top: 35px;
-}
+    margin-top: 10px;
+    position: absolute;
+    bottom: 10px;
+  }
